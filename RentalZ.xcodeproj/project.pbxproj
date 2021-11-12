@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		913552052735B27800A4071A /* RentalZApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913552042735B27800A4071A /* RentalZApp.swift */; };
-		913552072735B27800A4071A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913552062735B27800A4071A /* ContentView.swift */; };
 		913552092735B27900A4071A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 913552082735B27900A4071A /* Assets.xcassets */; };
 		9135520C2735B27900A4071A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9135520B2735B27900A4071A /* Preview Assets.xcassets */; };
 		913552162735B27900A4071A /* RentalZTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913552152735B27900A4071A /* RentalZTests.swift */; };
 		913552202735B27900A4071A /* RentalZUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9135521F2735B27900A4071A /* RentalZUITests.swift */; };
 		913552222735B27900A4071A /* RentalZUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913552212735B27900A4071A /* RentalZUITestsLaunchTests.swift */; };
+		916947AC273D201900A9CA10 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916947AB273D201900A9CA10 /* ListView.swift */; };
+		916947AE273D296900A9CA10 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916947AD273D296900A9CA10 /* ListRowView.swift */; };
+		916947B0273D2A1D00A9CA10 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916947AF273D2A1D00A9CA10 /* AddView.swift */; };
+		916947B3273D2B6C00A9CA10 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916947B2273D2B6C00A9CA10 /* ItemModel.swift */; };
+		917449DB273D9A960079C387 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917449DA273D9A960079C387 /* ListViewModel.swift */; };
+		917449DD273DB0790079C387 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917449DC273DB0790079C387 /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		913552012735B27800A4071A /* RentalZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RentalZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		913552042735B27800A4071A /* RentalZApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalZApp.swift; sourceTree = "<group>"; };
-		913552062735B27800A4071A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		913552082735B27900A4071A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9135520B2735B27900A4071A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		913552112735B27900A4071A /* RentalZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RentalZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,12 @@
 		9135521B2735B27900A4071A /* RentalZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RentalZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9135521F2735B27900A4071A /* RentalZUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalZUITests.swift; sourceTree = "<group>"; };
 		913552212735B27900A4071A /* RentalZUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalZUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		916947AB273D201900A9CA10 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		916947AD273D296900A9CA10 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		916947AF273D2A1D00A9CA10 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		916947B2273D2B6C00A9CA10 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		917449DA273D9A960079C387 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		917449DC273DB0790079C387 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				913552042735B27800A4071A /* RentalZApp.swift */,
-				913552062735B27800A4071A /* ContentView.swift */,
+				916947B1273D2A6D00A9CA10 /* Models */,
+				916947A8273D1F3A00A9CA10 /* Views */,
 				913552082735B27900A4071A /* Assets.xcassets */,
 				9135520A2735B27900A4071A /* Preview Content */,
 			);
@@ -125,6 +136,26 @@
 				913552212735B27900A4071A /* RentalZUITestsLaunchTests.swift */,
 			);
 			path = RentalZUITests;
+			sourceTree = "<group>";
+		};
+		916947A8273D1F3A00A9CA10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				916947AB273D201900A9CA10 /* ListView.swift */,
+				916947AD273D296900A9CA10 /* ListRowView.swift */,
+				916947AF273D2A1D00A9CA10 /* AddView.swift */,
+				917449DC273DB0790079C387 /* EditView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		916947B1273D2A6D00A9CA10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				916947B2273D2B6C00A9CA10 /* ItemModel.swift */,
+				917449DA273D9A960079C387 /* ListViewModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +288,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				913552072735B27800A4071A /* ContentView.swift in Sources */,
+				916947B3273D2B6C00A9CA10 /* ItemModel.swift in Sources */,
 				913552052735B27800A4071A /* RentalZApp.swift in Sources */,
+				917449DB273D9A960079C387 /* ListViewModel.swift in Sources */,
+				916947B0273D2A1D00A9CA10 /* AddView.swift in Sources */,
+				917449DD273DB0790079C387 /* EditView.swift in Sources */,
+				916947AC273D201900A9CA10 /* ListView.swift in Sources */,
+				916947AE273D296900A9CA10 /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
